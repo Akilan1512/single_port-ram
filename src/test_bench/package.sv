@@ -1,0 +1,18 @@
+package package_ram;
+ `include "transaction.sv"
+ `include "generator.sv"
+ `include "driver.sv"
+ `include "monitor.sv"
+ `include "reference_model.sv"
+ `include "scoreboard.sv"
+ `include "environment.sv"
+ `include "test.sv"
+ `include "write_test.sv"
+ `include "read_test.sv"
+ `include "reset_test.sv"
+ `include "write_read_test.sv"
+ `include "boundary_test.sv"
+ `include "sequential_test.sv"
+ `include "random_rw_test.sv"
+ `include "full_memory_test.sv"
+endpackage:package_ram
